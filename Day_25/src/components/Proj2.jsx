@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 
 //  Memoized Button
 const IncrementButton = React.memo(({ onIncrement }) => {
-  console.log('🔁 Rendering Button');
+  console.log(' Rendering Button');
   return (
     <button className="btn btn-primary" onClick={onIncrement}>
       Increment

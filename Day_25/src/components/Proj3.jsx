@@ -11,7 +11,7 @@ const Proj3 = () => {
 
   // Memoized filtering
   const filteredSuggestions = useMemo(() => {
-    console.log('🔍 Filtering suggestions...');
+    console.log(' Filtering suggestions...');
     return data.filter(item =>
       item.toLowerCase().includes(searchTerm.toLowerCase())
     );
